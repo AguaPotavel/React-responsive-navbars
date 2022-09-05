@@ -16,10 +16,19 @@ export default function App(){
     return(
     <Page>
         <RNavbar>
-            <RNavbar.Button className={'type-1'}>
-                Botão
-            </RNavbar.Button>
+            <RNavbar.Area align={'flex-start'}>
+                <RNavbar.Button className={'type-1'} fontSize={'large'}>
+                    Botão
+                </RNavbar.Button>
+                <RNavbar.Button className={'type-1'}>
+                    Botão
+                </RNavbar.Button>
+            </RNavbar.Area>
+            <RNavbar.Area align={'flex-end'}>
+                <RNavbar.Button className={'type-1'}>
+                    Botão
+                </RNavbar.Button>
+            </RNavbar.Area>  
         </RNavbar>
-        App
     </Page>)
 }
